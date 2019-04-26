@@ -1,0 +1,363 @@
+header {
+	width: 100%;
+	float: left;
+}
+
+.logo {
+
+}
+
+.logo img {
+	margin: 30px 0;
+}
+
+/*----------hero sec--------------*/
+
+.hero {
+	width: 100%;
+	float: left;
+	background: url("../img/banner.png")no-repeat;
+	background-size: cover;
+}
+
+
+.hero-box{
+    color: white;
+    font-family: Lato;
+    text-align: center;
+}
+.hero-box h1 {
+    font-size: 100px;
+    font-weight: bold;
+    padding: 28px 0px;
+    margin: 146px 65px 0px 65px;
+    border-bottom: 2px solid #15a4fa;
+}
+.hero-box p {
+    font-size: 18px;
+    margin: 39px 0;
+}
+.hero-box button {
+    font-size: 17px;
+    background-color: transparent;
+    border: 1px solid #14a3fa;
+    color: white;
+    padding: 13px 27px;
+    margin-top: 23px;
+    border-radius: 3px;
+    -webkit-transition: 0.7S ease;
+    -moz-transition: 0.7S ease;
+    -o-transition: 0.7S ease;
+}
+.hero-box button:hover {
+    background-color: #14a3fa;
+}
+.hero-box a p {
+    margin: 160px 0 75px 0;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+
+/*----------about sec--------------*/
+
+.about {
+	width: 100%;
+	float: left;
+	background-color: #e9e9e9;
+}
+
+.about-box {
+	padding: 75px 0;
+    text-align: center;
+    font-family: Lato;
+}
+.about-box h1 {
+	font-size: 36px;
+    color: #2d3950;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.about-box p {
+	line-height: 28px;
+    color: #999999;
+    padding: 0 130px;
+}
+
+
+/*----------work sec--------------*/
+
+.work {
+	width: 100%;
+	float: left;
+}
+
+.work-box {
+	text-align: center;
+    font-family: Lato;
+    padding: 75px 0;
+}
+.work-box h3 {
+	color: #2d3950;
+    margin-top: 30px;
+    font-size: 17px;
+    font-weight: bold;
+}
+.work-box p {
+	color: #999999;
+    padding: 0 40px;
+    font-size: 13px;
+    line-height: 19px;
+    margin-top: 15px;
+    margin-bottom: 0;
+}
+
+.work-box-icon-bg {
+	position: relative;
+	height: 100px;
+	width: 100px;
+	margin: 0 auto;
+}
+.work-box-icon-bg-left {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #47bbff;
+}
+.work-box-icon-bg-right {
+	width: 50%;
+	height: 100%;
+	float: left;
+	background-color: #5dc4ff;
+}
+.work-box-icon {
+	position: absolute;
+	top: 37%;
+    left: 35%;
+}
+.icon-mobile{
+	position: absolute;
+	top: 30%;
+    left: 42%;
+}
+
+.work-box-icon i {
+	color: #fff;
+	font-size: 27px;
+}
+
+i.fa.fa-mobile {
+	font-size: 40px;
+}
+
+/*----------portfolio sec--------------*/
+
+.portfolio {
+	width: 100%;
+	float: left;
+	background-color: #e9e9e9;
+	padding: 75px 0;
+}
+
+.portfolio-text {
+	padding: 0 0 50px 0;
+    text-align: center;
+    font-family: Lato;
+}
+.portfolio-text h1 {
+	font-size: 36px;
+    color: #2d3950;
+    padding-bottom: 25px;
+    font-weight: bold;
+}
+.portfolio-text p {
+	line-height: 28px;
+    color: #999999;
+    padding: 0 130px;
+}
+
+.portfolio-img {
+    height: 250px;
+    float: left;
+    padding: 13px;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition: 0.8s ease;
+    -moz-transition: 0.8s ease;
+    -o-transition: 0.8s ease;
+}
+.portfolio-img img {
+	width: 100%;
+    height: 100%;
+}
+
+.portfolio-content {
+	width: 93.2%;
+    height: 89.6%;
+    margin: 13px;
+    position: absolute;
+    background-color: #03a9f491;
+    top: 0;
+    left: 100%;
+}
+
+.portfolio-img:hover .portfolio-content {
+	left: 0;
+}
+
+i.fa.fa-search-plus {
+    background-color: transparent;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    margin-top: 30%;
+    margin-left: 39%;
+}
+i.fa.fa-link {
+    background-color: transparent;
+    padding: 8px;
+    border: 1px solid white;
+    border-radius: 5px;
+    color: white;
+    font-size: 17px;
+    margin-top: 30%;
+}
+
+
+/*----------contact sec--------------*/
+
+.contact {
+	width: 100%;
+    float: left;
+    background: url(../img/form-banner.png)no-repeat;
+    background-size: cover;
+    font-family: Lato;
+    padding: 65px 0;
+}
+.contact-text {
+	text-align: center;
+    font-family: Lato;
+}
+.contact-text h1 {
+	font-size: 36px;
+	font-weight: bold;
+    color: #fff;
+    padding-bottom: 25px;
+    text-align: center;
+}
+.contact-text p {
+	line-height: 28px;
+    color: #999999;
+    padding: 0 130px;
+    text-align: center;
+}
+
+.contact-form {
+	padding: 33px 0 70px 0;
+	position: relative;
+}
+
+.form-input {
+	width: 95%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    color: white;
+}
+.form-text {
+	width: 95%;
+    display: block;
+    margin: 0 auto;
+    padding: 15px 0;
+    padding-left: 15px;
+    margin-bottom: 15px;
+    background-color: transparent;
+    border: 1px solid #999999;
+    border-radius: 5px;
+    font-family: Lato;
+    height: 105px;
+    color: white;
+}
+.checkbox {
+	display: block;
+    float: left;
+    font-size: 14px;
+    color: white;
+    position: absolute;
+    bottom: 10%;
+    left: 3%;
+}
+.cb {
+	width: 15px;
+    height: 15px;
+}
+.checkbox span {
+    padding-left: 12px;
+}
+.form-btn {
+	display: block;
+    float: left;
+    font-size: 15px;
+    background-color: transparent;
+    border: 1px solid #14a3fa;
+    color: white;
+    padding: 10px 50px;
+    border-radius: 3px;
+    -webkit-transition: 0.7S ease;
+    -moz-transition: 0.7S ease;
+    -o-transition: 0.7S ease; 
+	position: absolute;  
+    bottom: 7%;
+    right: 3%;
+}
+.form-btn:hover {
+	background-color: #14a3fa;
+}
+
+
+/*----------footer--------------*/
+
+footer {
+	width: 100%;
+    float: left;
+    background-color: #f6f9f9;
+    padding: 30px 0 15px 0;
+}
+.footer-text {
+    font-family: Lato;
+    text-align: center;
+}
+.footer-text p {
+	color: #999999;
+    font-size: 14px;
+    margin-top: 6px;
+}
+
+.social ul {
+    list-style: none;
+    margin: 0;
+}
+.social ul li {
+    display: inline-block;
+}
+.social ul li a {
+    text-decoration: none;
+    color: white;
+    background-color: #15a4fa;
+    padding: 10px 13px;
+    border-radius: 2px;
+    font-size: 13px;
+}
+#fb {
+    padding: 10px 16px;
+}
+
+/*----------end--------------*/
